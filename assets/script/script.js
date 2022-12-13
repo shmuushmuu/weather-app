@@ -29,4 +29,4 @@ geocodingApiUrl = "http://api.openweathermap.org/geo/1.0/direct?q={city name},{s
 apiWeekUrl = "api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}";
 
 //my Api key
-3e1945513cc5bde07da51feba3091383;
+//3e1945513cc5bde07da51feba3091383;
