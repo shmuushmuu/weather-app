@@ -21,9 +21,10 @@
 //apiWeekUrl = "api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}";
 
 var searchedCity = document.getElementById('#search');
+var apiKey = "3e1945513cc5bde07da51feba3091383";
 
 function fetchWeather(currentCity) {
-    var apiUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + q + "&limit=5&appid=3e1945513cc5bde07da51feba3091383";
+    var apiUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + searchedCity + "&limit=5&appid=" + apiKey;
 
     fetch(apiUrl)
         .then(function (response) {
